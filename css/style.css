@@ -1,0 +1,199 @@
+/* General */
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #F1913A;
+  color: #fff;
+  position: relative;
+  background: transparent;
+}
+body::before {
+  content: "";
+  position: fixed;
+  background: #040404 url("/img/p5.jpg") top center no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: -1;
+}
+
+@media (min-width: 1024px) {
+  body::before {
+    background-attachment: fixed;
+  }
+}
+a {
+  color: #3decd5;
+}
+a:hover {
+  color: #bee835;
+  text-decoration: none;
+}
+.navbar{
+  background-color: #6b0000a9;
+}
+.navbar{
+  top: 0!important;
+  z-index: 2!important;
+}
+.upper-title h2::after {
+  content: "";
+  width: 220px;
+  height: 1px;
+  display: inline-block;
+  background: #fff;
+  margin: 4px 10px;
+}
+
+.button{
+  font: 500 16px/20px;
+  position: relative
+  border: 3px solid transparent;
+  boreder-radius: 4px;
+
+}
+.button.primary-button{
+  background: #EB8933;
+  background-clip: padding-box;
+  color:whitesmoke;
+  transition: .6s ease-in-out;
+  box-shadow: #FFF069;
+}
+.button.primary-button:hover{
+  background: #bee835;
+  color: #040404;
+}
+#aboutme i{
+  font-size: 20px;
+  padding-right: 5px;
+  color: #9fec47d3;
+}
+.counter-container{
+  padding: 70px 0 60px;
+}
+
+.counter-container .counter-box {
+  padding: 30px 30px 25px 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background: #e7b0173d ;
+  color: #fff;
+  transition: ease-in-out 0.3s;
+  font-size: 30px;
+}
+#bar{
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.padding-bar{
+  padding: 10px 0;
+  display: block;
+  font-weight: 600;
+  color: #fff;
+}
+.interests-container .icon-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: rgba(233, 204, 42, 0.08);
+  transition: ease-in-out 0.3s;
+}
+.icon-box i {
+  font-size: 25px;
+  padding-right: 15px;
+}
+
+.services-container .icon-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: rgba(233, 204, 42, 0.08);
+  transition: ease-in-out 0.3s;
+}
+
+.edutextcolor{
+    color: whitesmoke;
+}
+.circle{
+    background-color:#e9942677  ;
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    text-align: center;
+}
+.card{
+  background-color:#e7b0173d ;
+}
+.carousel-inner{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: rgba(233, 204, 42, 0.08);
+  transition: ease-in-out 0.3s;
+}
+.info-box{
+  align-items: center;
+  padding: 10px;
+  background: rgba(233, 204, 42, 0.08);
+  transition: ease-in-out 0.3s;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ecab5677; 
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+  background: rgba(243, 243, 242, 0.08);
+}
+
+
+input[type=email], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ecab5677; 
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+  background: rgba(243, 243, 242, 0.08);
+}
+
+/* Add a background color and some padding around the form */
+#form {
+  border-radius: 5px;
+  background-color: #e9942677;
+  padding: 20px;
+}
+.info-box i{
+  font-size: 25px;
+  color: #bee835;
+}
+#country{
+  background-color: #e9942677;
+}
+.counter-box i{
+  font-size: 40px;
+  color: #bee835;
+}
+#email{
+  background: rgba(243, 243, 242, 0.08);
+}
+.icon i{
+  font-size: 25px;
+  padding-right: 15px;
+  color: #bee835;
+}
+.circle{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color:#fff;
+}
